@@ -1,0 +1,13 @@
+<h1>Register</h1>
+<formly-form model="vm.data" fields="vm.fields" form="vm.form">
+        <div class="form-submit-actions pull-right">
+                <a ui-sref="home">Cancel</a>
+                &nbsp;
+                <button type="submit"
+                        class="btn btn-primary submit-button"
+                        ng-disabled="vm.form.$invalid"
+                        ng-click="vm.login()">
+                        Submit
+                </button>
+        </div>
+</formly-form>

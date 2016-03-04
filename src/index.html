@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app" ng-strict-di>
+<head>
+	<meta charset="UTF-8">
+	<title>Angular + JWT + Webpack Starter</title>
+	<base href="/">
+</head>
+<body>
+	<a ui-sref="auth.login">Login</a>
+	<a ui-sref="auth.register">Register</a>
+	<div class="container">
+		<ui-view/>
+	</div>
+	<script src="bundle.js"></script>
+</body>
+</html>
